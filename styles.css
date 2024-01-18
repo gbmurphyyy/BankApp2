@@ -1,0 +1,124 @@
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 400px;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    max-height: fit-content;
+    margin-top: 100px;
+  }
+  
+  .card-header {
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  .card-title,
+  .card-text {
+    text-align: center;
+  }
+  
+  .badge.bg-dark.rounded-pill {
+    color: white;
+    background-color: black;
+  }
+  
+  .list-group-item.make-center {
+    text-align: center;
+    color: black;
+    background-color: white;
+    font-size: 25px;
+  }
+  
+  .feature-coming-soon {
+    text-align: center;
+    margin-top: 250px;
+  }
+  
+  .card-body .balance-information {
+    font-size: 25px;
+  }
+  
+  .movements-list {
+    margin-bottom: 0em;
+  }
+  
+  h5 {
+    text-align: center;
+  }
+  
+  .createAccountPage {
+    display: block;
+    align-items: center;
+    padding-bottom: 25px;
+  }
+  
+  #user-info {
+    visibility: visible; 
+    padding-bottom: 25px;
+    padding-top: 10px;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: right !important;
+    position: absolute;
+    right: 10%;
+  }
+  
+  .display-name {
+    text-align: right;
+    visibility: visible;
+    display:block
+  }
+  
+  .login-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .allData-display {
+    display:flex;
+    justify-content: center;
+    align-content: space-around;
+    width: 100%;
+    
+  }
+  
+  .allData-btn{
+    font-size: 20px !important;
+    
+  }
+  
+  .first-btn {
+    padding-right: 10px;
+    margin-right: 4px;
+  }
+  
+  .allData-btn-container {
+    padding-left: 10px
+  }
+  
+  #nav-home{
+    pointer-events: none;
+  }
+  
+  .login-btn{
+    padding-bottom:5px;
+    margin-right: 4px;
+    border: 3px black;
+  }
+  
+  .hi-msg{
+    width: 100%;
+      text-align: right;
+      padding-right: 25px;
+      padding-top: 25px;
+      font-size: 25px;
+      font-weight: bold;
+  }
